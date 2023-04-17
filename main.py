@@ -2,8 +2,8 @@ import os
 from PyPDF2 import PdfMerger, PdfReader
 
 
-downloads_dir = os.path.expanduser('~/Actualize/Filespdf')
-pdf_dir = os.path.expanduser('~/Downloads')
+downloads_dir = os.path.expanduser('~/Downloads')
+pdf_dir = os.path.expanduser('~/Downloads/PDF')
 
 
 if not os.path.exists(pdf_dir):
